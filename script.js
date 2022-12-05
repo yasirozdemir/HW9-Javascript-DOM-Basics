@@ -32,8 +32,8 @@ function changeVisibility(classToBeAdded) {
 function changeTheColorOfPrices() {
   let pricesNode = document.getElementsByClassName("phone-price");
   let colors = ["red", "blue", "pink", "green", "purple"];
-  let random = Math.floor(Math.random() * colors.length);
   for (let i = 0; i < pricesNode.length; i++) {
+    let random = Math.floor(Math.random() * colors.length);
     let priceNode = pricesNode[i];
     priceNode.style.color = colors[random];
   }
