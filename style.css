@@ -18,10 +18,6 @@ table {
     visibility: hidden;
 }
 
-.visible {
-    visibility: visible;
-}
-
 .image-container {
     display: flex;
     justify-content: center;
